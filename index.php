@@ -1,6 +1,9 @@
-<?php include("includes/header.php"); ?>
+<?php 
+include("includes/header.php"); 
+#include("pages/translate.php")
+?>
 
-<link rel="stylesheet" type="text/css" href="http://localhost/projects/portfolio/assets/css/index.css">
+<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
 <div class="container">
     <div class="left-section">

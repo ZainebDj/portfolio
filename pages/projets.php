@@ -1,8 +1,6 @@
 <?php include("../includes/header.php"); ?>
 <link rel="stylesheet" type="text/css" href="../assets/css/projets.css">
-
-
-<?php
+<?php     
 include("../config.php");
 $sql = "SELECT * FROM projets";
 $result = $conn->query($sql);

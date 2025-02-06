@@ -21,6 +21,11 @@ nav ul li {
     display: inline;
     margin: 0 10px;
 }
+nav ul li .lange{
+    float: right;
+    background-color: #333;
+    color: whitesmoke;
+}
 nav a {
     color: white;
     text-decoration: none;
