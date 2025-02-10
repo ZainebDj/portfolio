@@ -13,7 +13,7 @@ $result = $conn->query($sql);
         <div class="projet-card">
             <h3><?php echo htmlspecialchars($row['titre']); ?></h3>
             <p><?php echo nl2br(htmlspecialchars($row['description'])); ?></p>
-            <img src="../assets/images/<?php echo htmlspecialchars($row['image']); ?>" alt="Projet">
+            <!--img src="../assets/images/<?php echo htmlspecialchars($row['image']); ?>" alt="Projet"-->
             <a href="<?php echo htmlspecialchars($row['lien']); ?>" target="_blank">See more</a>
         </div>
     <?php endwhile; ?>

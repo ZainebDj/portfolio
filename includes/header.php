@@ -13,7 +13,7 @@
                 <li><a href="/projects/portfolio/index.php">Accueil</a></li>
                 <li><a href="/projects/portfolio/pages/projets.php">Projets</a></li>
                 <li><a href="/projects/portfolio/pages/contact.php">Contact</a></li>
-                <li class="lange">
+                <!--li class="lange">
                     
                     <form method="get" action="">
                         <select name="lang" onchange="this.form.submit()">
@@ -22,7 +22,7 @@
                             <option value="de" <?php echo ($_GET['lang'] ?? 'fr') == 'de' ? 'selected' : ''; ?>>DE</option>
                         </select>
                     </form>
-                </li>
+                </li-->
             </ul>
         </nav>
     </header>
