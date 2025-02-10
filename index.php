@@ -19,7 +19,7 @@ include("includes/header.php");
         </ul>
     </div>
     <div class="right-section">
-        <img src="assets/images/image.png" alt="Zaineb Djemel" class="profile-pic">
+        <img src="assets/images/image.jpg" alt="ZD" class="profile-pic">
     </div>
 </div>
 
